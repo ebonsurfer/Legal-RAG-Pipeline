@@ -1,0 +1,20 @@
+﻿# Virtual environments & Python artifacts
+venv/
+__pycache__/
+*.pyc
+
+# Local secrets & credentials
+.env
+
+# Model weights & runtime binaries
+*.gguf
+*.bin
+*.pt
+llama.cpp/build/
+
+# Heavy data dumps & downloads
+*.csv
+*.zip
+*.xml
+extracted/
+uscode/
